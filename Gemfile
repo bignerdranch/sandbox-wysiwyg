@@ -9,6 +9,10 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
 
+gem 'ckeditor'
+gem 'carrierwave'
+gem 'fog'
+gem 'mini_magick'
 
 group :development, :test do
 end
@@ -25,7 +29,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'dotenv'
+  gem 'dotenv-rails'
   gem 'pry-rails'
   gem 'rspec-rails'
 end

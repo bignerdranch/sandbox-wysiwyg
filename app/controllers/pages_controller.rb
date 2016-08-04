@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def test
+  def edit
+    @page = Page.first || Page.create
   end
 end
