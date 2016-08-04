@@ -3,3 +3,4 @@ toolbar: bold italic | bullist numlist outdent indent | link unlink | uploadimag
 plugins:
   - link
   - uploadimage
+uploadimage_form_url: /post_images

@@ -11,6 +11,9 @@ gem 'jquery-rails'
 gem 'tinymce-rails'
 gem 'tinymce-rails-imageupload', '~> 4.0.0.beta'
 
+gem 'carrierwave'
+gem 'fog'
+
 group :development, :test do
 end
 
@@ -26,7 +29,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'dotenv'
+  gem 'dotenv-rails'
   gem 'pry-rails'
   gem 'rspec-rails'
 end
