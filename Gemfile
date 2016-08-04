@@ -40,3 +40,4 @@ group :production do
 end
 
 gem 'rack-attack'
+gem 'slim'
