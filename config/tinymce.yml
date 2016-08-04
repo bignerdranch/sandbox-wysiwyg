@@ -1,4 +1,5 @@
 menubar: false
-toolbar: bold italic | bullist numlist outdent indent | link unlink
+toolbar: bold italic | bullist numlist outdent indent | link unlink | uploadimage
 plugins:
   - link
+  - uploadimage
