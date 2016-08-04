@@ -23,3 +23,14 @@ group :development do
   gem 'bullet'
   gem 'faker'
 end
+
+group :development, :test do
+  gem 'dotenv'
+  gem 'pry-rails'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'factory_girl_rails'
+end
