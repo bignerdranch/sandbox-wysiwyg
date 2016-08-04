@@ -1,30 +1,9 @@
-# Rails Tinymce
+# Rails TinyMCE
 
-This is a short description of your app.
+A sandbox experimenting with TinyMCE in Rails.
 
-## Getting Started
+## Reference
 
-### Requirements
-
-1. Ruby
-1. PostgreSQL (e.g. [Postgres.app][postgres-app])
-
-### Setup
-
-```sh
-$ bin/bootstrap
-```
-
-### Testing
-
-```sh
-$ bin/rspec
-```
-
-### Running
-
-```sh
-$ bin/rails server
-```
-
-[postgres-app]: http://postgresapp.com
+- https://github.com/spohlenz/tinymce-rails
+- https://www.tinymce.com/docs/configure/
+- https://github.com/PerfectlyNormal/tinymce-rails-imageupload
